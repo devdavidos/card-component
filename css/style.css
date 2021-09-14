@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/*
+    font-family: 'Big Shoulders Display', cursive; (700)
+    font-family: 'Lexend Deca', sans-serif; (400)
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+}
+
+main.card {
+    width: 900px;
+    height: 70vh;
+    display: flex;
+    margin: 70px auto;
+}
+
+@media screen and (max-width: 920px)  {
+    main.card {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin: 20px auto;
+        height: auto;
+    }
+
+    .sedan {
+        border-radius: 10px 10px 0 0 !important;
+    }
+
+    .luxury {
+        border-radius: 0 0 10px 10px !important;
+    }
+
+    p.paragraph {
+        margin-right: 40px !important;
+        margin-bottom: -60px !important;
+    }
+
+    .btn {
+        margin-bottom: 40px !important;
+    }
+
+    .attribution {
+        visibility: hidden;
+    }
+}
+
+img {
+    margin: 50px 0 0 50px;
+}
+
+.sedan,.suv,.luxury {
+    color: hsl(0, 0%, 95%);
+    width: 300px;
+}
+
+section.sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+.btn-sedan:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+
+.btn-suv:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid hsla(0, 0%, 100%, 0.75)
+}
+
+.btn-luxury:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+
+section.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+section.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+h2.subtitle {
+    font-size: 2em;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 30px 0 0 50px;
+    letter-spacing: 1px;
+}
+
+p.paragraph {
+    color: hsla(0, 0%, 100%, 0.55);
+    font-size: 0.9em;
+    font-family: "Lexend Deca", sans-serif;
+    line-height: 1.5;
+    text-align: left;
+    margin: 20px 60px 0 50px;
+}
+
+.btn {
+    width: 120px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 0;
+
+    margin: 100px 50px 0px 50px;
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.btn-sedan {
+    color: hsl(31, 77%, 52%);;
+}
+
+.btn-suv {
+    color:hsl(184, 100%, 22%)
+}
+
+.btn-luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+    font-size: 20px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(184, 100%, 22%);
+    text-decoration: none;
+}
