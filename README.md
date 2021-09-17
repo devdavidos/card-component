@@ -11,7 +11,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Project 3-Column](images/snipper.png)
+![Project 3-Column](/images/snipper.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -21,8 +21,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/devdavidos/card-component#readme)
-- Live Site URL: [Add live site URL here](https://devdavidos.github.io/card-component/)
+- Solution URL: [GitHub](https://github.com/devdavidos/card-component#readme)
+- Live Site URL: [https://devdavidos.github.io/card-component/](https://devdavidos.github.io/card-component/)
 
 ## My process
 
